@@ -63,7 +63,8 @@
               "browserTarget": "reviews:build:production"
             },
             "development": {
-              "browserTarget": "reviews:build:development"
+              "browserTarget": "reviews:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
